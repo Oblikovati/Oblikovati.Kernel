@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+    <BaseOutputPath>..\bin\</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Files\" />
+    <Folder Include="AddIns\" />
+    <Folder Include="Changes\" />
+    <Folder Include="ContentCenter\" />
+    <Folder Include="DesignProjects\" />
+    <Folder Include="AssetLibraries\" />
+    <Folder Include="Environments\" />
+    <Folder Include="Cameras\" />
+    <Folder Include="TransientBRep\" />
+    <Folder Include="Transient\" />
+    <Folder Include="Transactions\" />
+    <Folder Include="Representation\" />
+    <Folder Include="Styles\" />
+    <Folder Include="Sketches\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Submodules\Oblikovati.Domain.Contracts\Source\Oblikovati.Domain.Contracts\Oblikovati.Domain.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

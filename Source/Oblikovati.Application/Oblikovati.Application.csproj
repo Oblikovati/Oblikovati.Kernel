@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+    <BaseOutputPath>..\bin\</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Oblikovati.Domain.Core\Oblikovati.Domain.Core.csproj" />
+    <ProjectReference Include="..\Oblikovati.Domain.Documents\Oblikovati.Domain.Documents.csproj" />
+    <ProjectReference Include="..\Oblikovati.Domain.Renderer\Oblikovati.Domain.Renderer.csproj" />
+    <ProjectReference Include="..\Oblikovati.Domain.Windowing\Oblikovati.Domain.Windowing.csproj" />
+  </ItemGroup>
+
+</Project>

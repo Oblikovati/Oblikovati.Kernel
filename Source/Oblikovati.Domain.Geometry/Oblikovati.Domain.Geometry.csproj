@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+    <BaseOutputPath>..\bin\</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Oblikovati.Domain.Math\Oblikovati.Domain.Math.csproj" />
+    <ProjectReference Include="..\Submodules\Oblikovati.Domain.Contracts\Source\Oblikovati.Domain.Contracts\Oblikovati.Domain.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

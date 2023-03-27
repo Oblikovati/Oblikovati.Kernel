@@ -1,0 +1,1 @@
+﻿global using Oblikovati.Domain.Contracts.Rendering;

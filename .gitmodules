@@ -1,0 +1,3 @@
+[submodule "Source/Submodules/Oblikovati.Domain.Contracts"]
+	path = Source/Submodules/Oblikovati.Domain.Contracts
+	url = https://github.com/Oblikovati/Oblikovati.Domain.Contracts
